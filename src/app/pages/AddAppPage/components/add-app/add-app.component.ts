@@ -1,7 +1,7 @@
 import { Component, OnInit,Input } from '@angular/core';
-import { AppProfile } from './../../../../shared/models/app-profile.model';
-import { AppDetails } from './../../../../shared/models/app-details.model';
-import { NgoDetails } from './../../../../shared/models/ngo-details.model';
+import { AppProfile } from 'shared/models/app-profile.model';
+import { AppDetails } from 'shared/models/app-details.model';
+import { NgoDetails } from 'shared/models/ngo-details.model';
 
 import './add-app.scss';
 

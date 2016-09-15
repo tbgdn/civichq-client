@@ -1,5 +1,6 @@
 var webpack = require('webpack');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
+var path = require('path');
 
 module.exports = {
   entry: {
@@ -12,7 +13,11 @@ module.exports = {
     filename: '[name].js'
   },
   resolve: {
-    extensions: ['', '.js', '.ts']
+    extensions: ['', '.js', '.ts'],
+    root: path.join(__dirname, '/src'),
+    alias: {
+      shared: 'app/shared',
+    }
   },
   devtool: 'cheap-source-map',
   module: {

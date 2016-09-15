@@ -1,6 +1,6 @@
 import { Component, OnInit} from '@angular/core';
 import { AppProfileService } from '../../services/app-profile.service';
-import { AppProfile } from './../../../../shared/models/app-profile.model';
+import { AppProfile } from 'shared/models/app-profile.model';
 
 import './app-profile.scss';
 
