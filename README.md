@@ -52,6 +52,12 @@ Run npm install
 Run npm start
 ```
 
+When installing on Windows, you might see an error about **gyp** and to fix it you need to run: 
+```
+npm install --global --production windows-build-tools
+```
+After that you can try the installation again. More on this error [here](https://github.com/nodejs/node-gyp#on-windows).
+
 ## Feedback
 
 * Request a new feature on GitHub.
